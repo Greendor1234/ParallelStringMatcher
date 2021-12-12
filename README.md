@@ -15,7 +15,7 @@ $ make
 **WARNING** : the project was developed on mac so there were added **_-lomp_** and **_-Xpreprocessor_** options, remove them (in makefile) if necessary.
 
 ## Usage
-bin/{_serial_, _parallel_}/{aho, kmp} test/pattern/{_*.txt_} test/packets/{_*.txt_} {_num_threads_}
+bin/{_serial_, _parallel_}/{aho, kmp} test/pattern/{_txt_} test/packets/{_txt_} {_num_threads_}
 ```sh
 $ bin/serial/kmp test/pattern/sample.txt test/packets/small.txt
 $ bin/parallel/aho test/pattern/medium.txt test/packets/large.txt 4
