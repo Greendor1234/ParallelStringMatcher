@@ -6,11 +6,18 @@ C implementation Knuth Morris Pratt and Aho-Corasick algorithms
 ```sh
 $ make
 ```
-<p>ATTENZIONE: il progetto è stato elaborato su mac dunque sono state aggiunte le opzioni -lomp e -Xpreprocessor, rimuovere le opzioni se necessario.</p>
+<p>WARNING: the project was developed on mac so the were added -lomp and -Xpreprocessor options, remove them (in makefile) if necessary.</p>
 
 # Usage
 ```sh
 $ ./bin/serial/kmp ./test/pattern/sample.txt ./test/packets/small.txt
 $ ./bin/parallel/aho ./test/pattern/medium.txt ./test/packets/large.txt 4
 ```
-<p>I programmi paralleli di default vengono eseguiti con 2 thread se non viene specificato il numero.</p>
+<p>By default parallel programs run with 2 threads if not specified.</p>
+
+# Demo
+```sh
+$ bash run/sample.sh
+$ bash run/medium.sh
+$ bash run/large.sh
+```
