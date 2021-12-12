@@ -2,27 +2,27 @@
 
 C implementation Knuth Morris Pratt and Aho-Corasick algorithms
 
-# Build
+## Build
 ```sh
 $ make
 ```
 **WARNING** : the project was developed on mac so the were added **_-lomp_** and **_-Xpreprocessor_** options, remove them (in makefile) if necessary.
 
-# Usage
+## Usage
 ```sh
 $ ./bin/serial/kmp ./test/pattern/sample.txt ./test/packets/small.txt
 $ ./bin/parallel/aho ./test/pattern/medium.txt ./test/packets/large.txt 4
 ```
 By default parallel programs run with 2 threads if not specified.
 
-# Demo
+## Demo
 ```sh
 $ bash run/sample.sh
 $ bash run/medium.sh
 $ bash run/large.sh
 ```
 
-# Structure
+## Structure
 - **bin**
   - **serial** : contains serial algos binary.
   - **parallel** : contains parallel algos binary.
@@ -37,7 +37,7 @@ $ bash run/large.sh
   - **packets** : contains file in which find the patterns
   - **patterns** : contains patterns and the pattern's generator.
 
-# Notes
+## Notes
 Aho-Corasick implementation is taken from _https://github.com/morenice/ahocorasick_
 
 
