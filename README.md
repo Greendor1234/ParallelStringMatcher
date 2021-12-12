@@ -10,6 +10,8 @@ $ make
 
 ## Usage
 ```sh
+$ bin/[serial, parallel]/[aho, kmp] test/pattern/[*.txt] test/packets/[*.txt] [num_threads]
+
 $ ./bin/serial/kmp ./test/pattern/sample.txt ./test/packets/small.txt
 $ ./bin/parallel/aho ./test/pattern/medium.txt ./test/packets/large.txt 4
 ```
