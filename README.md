@@ -6,7 +6,7 @@ C serial and parallel software which find a set of strings in a file.
 ```sh
 $ make
 ```
-**WARNING** : the project was developed on mac so the were added **_-lomp_** and **_-Xpreprocessor_** options, remove them (in makefile) if necessary.
+**WARNING** : the project was developed on mac so there were added **_-lomp_** and **_-Xpreprocessor_** options, remove them (in makefile) if necessary.
 
 ## Usage
 ```sh
