@@ -11,8 +11,8 @@ $ make
 ## Usage
 bin/[serial, parallel]/[aho, kmp] test/pattern/[*.txt] test/packets/[*.txt] [num_threads]
 ```sh
-$ ./bin/serial/kmp ./test/pattern/sample.txt ./test/packets/small.txt
-$ ./bin/parallel/aho ./test/pattern/medium.txt ./test/packets/large.txt 4
+$ bin/serial/kmp test/pattern/sample.txt test/packets/small.txt
+$ bin/parallel/aho test/pattern/medium.txt test/packets/large.txt 4
 ```
 By default parallel programs run with 2 threads if not specified.
 
