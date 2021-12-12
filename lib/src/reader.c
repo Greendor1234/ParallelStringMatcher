@@ -1,3 +1,6 @@
+/*
+ * author: alessandro bitocchi
+ */
 #include "../include/reader.h"
 #include <string.h>
 #include <stdlib.h>
