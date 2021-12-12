@@ -38,6 +38,6 @@ $ bash run/large.sh
   - **patterns** : contains patterns and the pattern's generator.
 
 ## Notes
-Aho-Corasick implementation is taken from _https://github.com/morenice/ahocorasick_
+Aho-Corasick implementation is taken from [GitHub user Morenice](https://github.com/morenice/ahocorasick)
 
 
