@@ -30,8 +30,7 @@ $ bash run/large.sh
 - **lib** : contains common functions.
   - **include** : contains header files
   - **src** : contains source files
-- **parallel** : contains parallel algos source files 
-- **serial** : contains serial algos source files 
+- **src** : contains algos source files 
 - **run** : contains demo files
 - **test** : contains input file
   - **packets** : contains file in which find the patterns
