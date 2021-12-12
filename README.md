@@ -37,4 +37,7 @@ $ bash run/large.sh
   - **packets** : contains file in which find the patterns
   - **patterns** : contains patterns and the pattern's generator.
 
+# Notes
+Aho-Corasick implementation is taken from _https://github.com/morenice/ahocorasick_
+
 
