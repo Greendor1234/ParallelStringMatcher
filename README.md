@@ -1,6 +1,6 @@
 # ParallelStringMatcher
 
-C implementation Knuth Morris Pratt and Aho-Corasick algorithms
+C serial and parallel software which find a set of strings in a file.
 
 ## Build
 ```sh
