@@ -6,7 +6,7 @@ C implementation Knuth Morris Pratt and Aho-Corasick algorithms
 ```sh
 $ make
 ```
-**WARNING** : the project was developed on mac so the were added -lomp and -Xpreprocessor options, remove them (in makefile) if necessary.
+**WARNING** : the project was developed on mac so the were added _-lomp_ and _-Xpreprocessor_ options, remove them (in makefile) if necessary.
 
 # Usage
 ```sh
