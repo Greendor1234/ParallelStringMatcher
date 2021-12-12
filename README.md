@@ -6,7 +6,6 @@ C serial and parallel software which find a set of strings in a file.
 ```
  gcc
  openmp
- 
 ```
 
 ## Build
