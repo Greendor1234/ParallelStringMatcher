@@ -2,6 +2,13 @@
 
 C serial and parallel software which find a set of strings in a file.
 
+## Dependecies
+```
+ gcc
+ openmp
+ 
+```
+
 ## Build
 ```sh
 $ make
