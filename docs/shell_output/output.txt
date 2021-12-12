@@ -1,0 +1,111 @@
+(base) MacBook-Pro-di-Alessandro:ParallelStringMatcher alessandrobitocchi$ bash run/sample.sh 
+SERIAL PROGRAMS
+KMP | total match: 11724 | Elapsed time: 0.859593 seconds
+AHO | total match: 11724 | Elapsed time: 0.098014 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 2 THREADS
+KMP | total match: 11724 | Elapsed time: 0.449363 seconds
+AHO | total match: 11724 | Elapsed time: 0.055888 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 4 THREADS
+KMP | total match: 11724 | Elapsed time: 0.480194 seconds
+AHO | total match: 11724 | Elapsed time: 0.051808 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 8 THREADS
+KMP | total match: 11724 | Elapsed time: 0.477661 seconds
+AHO | total match: 11724 | Elapsed time: 0.051630 seconds
+(base) MacBook-Pro-di-Alessandro:ParallelStringMatcher alessandrobitocchi$ bash run/medium.sh 
+SERIAL PROGRAMS
+KMP | total match: 28772 | Elapsed time: 3.405637 seconds
+AHO | total match: 28772 | Elapsed time: 0.224623 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 2 THREADS
+KMP | total match: 28772 | Elapsed time: 1.795667 seconds
+AHO | total match: 28772 | Elapsed time: 0.121159 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 4 THREADS
+KMP | total match: 28772 | Elapsed time: 1.866720 seconds
+AHO | total match: 28772 | Elapsed time: 0.116228 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 8 THREADS
+KMP | total match: 28772 | Elapsed time: 1.871783 seconds
+AHO | total match: 28772 | Elapsed time: 0.117618 seconds
+(base) MacBook-Pro-di-Alessandro:ParallelStringMatcher alessandrobitocchi$ bash run/large.sh 
+SERIAL PROGRAMS
+KMP | total match: 258990 | Elapsed time: 33.640918 seconds
+AHO | total match: 258990 | Elapsed time: 1.449278 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 2 THREADS
+KMP | total match: 258990 | Elapsed time: 18.129693 seconds
+AHO | total match: 258990 | Elapsed time: 1.122396 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 4 THREADS
+KMP | total match: 258990 | Elapsed time: 23.039339 seconds
+AHO | total match: 258990 | Elapsed time: 0.835999 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 8 THREADS
+KMP | total match: 258990 | Elapsed time: 20.821137 seconds
+AHO | total match: 258990 | Elapsed time: 0.704457 seconds
+(base) MacBook-Pro-di-Alessandro:ParallelStringMatcher alessandrobitocchi$ bash run/medium.sh 
+SERIAL PROGRAMS
+KMP | total match: 28772 | Elapsed time: 3.406897 seconds
+AHO | total match: 28772 | Elapsed time: 0.226361 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 2 THREADS
+KMP | total match: 28772 | Elapsed time: 1.843326 seconds
+AHO | total match: 28772 | Elapsed time: 0.120498 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 4 THREADS
+KMP | total match: 28772 | Elapsed time: 1.942592 seconds
+AHO | total match: 28772 | Elapsed time: 0.122231 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 8 THREADS
+KMP | total match: 28772 | Elapsed time: 1.876541 seconds
+AHO | total match: 28772 | Elapsed time: 0.122631 seconds
+(base) MacBook-Pro-di-Alessandro:ParallelStringMatcher alessandrobitocchi$ bash run/sample.sh 
+SERIAL PROGRAMS
+KMP | total match: 11724 | Elapsed time: 0.869823 seconds
+AHO | total match: 11724 | Elapsed time: 0.102538 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 2 THREADS
+KMP | total match: 11724 | Elapsed time: 0.478626 seconds
+AHO | total match: 11724 | Elapsed time: 0.097354 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 4 THREADS
+KMP | total match: 11724 | Elapsed time: 0.620793 seconds
+AHO | total match: 11724 | Elapsed time: 0.053333 seconds
+----------------
+++++++++++++++++
+----------------
+PARALLEL PROGRAMS - 8 THREADS
+KMP | total match: 11724 | Elapsed time: 0.487631 seconds
+AHO | total match: 11724 | Elapsed time: 0.050697 seconds
+(base) MacBook-Pro-di-Alessandro:ParallelStringMatcher alessandrobitocchi$ 
